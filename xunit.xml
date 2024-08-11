@@ -1,0 +1,7 @@
+<testsuite name="Mocha Tests" tests="5" failures="0" errors="0" skipped="0" timestamp="Sun, 11 Aug 2024 11:56:20 GMT" time="204.252">
+<testcase classname="Multi Calendar Navigation Test" name="should login, navigate to Multi Calendar, verify toggle functionality, and quit the session" time="51.755"/>
+<testcase classname="Multi Calendar Navigation Test" name="should select checkboxes for bulk changes, save, and verify their state" time="40.035"/>
+<testcase classname="Multi Calendar Navigation Test" name="should login, navigate to Multi Calendar, click the three-dot icon, and then click Add Overrides" time="33.676"/>
+<testcase classname="Multi Calendar Navigation Test" name="should login, navigate to Multi Calendar, click the three-dot icon, click View Overrides, click the edit pencil icon, and then click Update" time="35.946"/>
+<testcase classname="Multi Calendar Navigation Test" name="should login, navigate to Multi Calendar, click the three-dot icon, click View Overrides, click the edit pencil icon, set a random minimum stay, and then click Update" time="37.53"/>
+</testsuite>

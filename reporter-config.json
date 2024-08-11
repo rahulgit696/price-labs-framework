@@ -1,0 +1,7 @@
+{
+    "default": {
+      "mochaFile": "cypress/reports/results/my-test-output.[hash].json",
+      "toConsole": true
+    }
+  }
+  
