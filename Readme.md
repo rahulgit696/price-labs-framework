@@ -36,8 +36,37 @@ To get started with the project, follow these steps:
    ```bash
    cd price-labs-framework
 3. Install dependencies:
-
-   npm install
+   ```bash
+      npm install
+## Project Directory Structure
+   ```bash
+   price-labs-framework/        # Main project directory
+│
+├── cypress/                 # Cypress testing framework directory
+│   ├── e2e/                 # Directory for end-to-end test files
+│   │   ├── apiTest.cy.js     # API testing script using Cypress
+│   │   └── loginTest.cy.js   # Login test script using Cypress
+│   │
+│   ├── fixtures/            # Directory for test data and static resources
+│   │   └── userCredentials.json  # JSON file containing user credentials for testing
+│   │
+│   ├── pages/               # Directory for page objects (page-related functions)
+│   │   ├── loginPage.js        # Page object for login page interactions
+│   │   ├── multiCalendarPage.js # Page object for multi-calendar page interactions
+│   │   └── pricingPage.js      # Page object for pricing page interactions
+│   │
+│   ├── support/             # Directory for support utilities and custom commands
+│   │   └── apiPage.js         # Utility functions for API interactions
+│   │
+│   └── videos/              # Directory for storing test run video recordings
+│       ├── apiTest.cy.js.mp4   # Video recording of the API test run
+│       └── loginTest.cy.js.mp4 # Video recording of the login test run
+│
+├── node_modules/            # Directory for npm packages (automatically generated)
+│
+├── package-lock.json        # Auto-generated file for locking dependencies versions
+├── package.json             # npm configuration file for managing project dependencies
+└── reporter-config.json     # Configuration file for custom test reporters
 
 ## Usage
 To run the tests, use the following command:
@@ -49,3 +78,4 @@ To run the tests, use the following command:
 To run the tests, use the following command:
 
     npx cypress run
+
